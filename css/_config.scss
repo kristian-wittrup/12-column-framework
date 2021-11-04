@@ -20,7 +20,7 @@ $width-type      :  $full-width;
   .outer-col-#{$col-number} {
     $col-width: $col-number / $grid-columns;
     width: calc(100% * #{$col-width} - #{$grid-gutter} * (1 - #{$col-width}));
-    background-color: #ccc;
+  //  background-color: #ccc;
     // Dont use padding and margin : use p-1 or mx-1 on HTML element
     display:flex;
   }
@@ -30,7 +30,7 @@ $width-type      :  $full-width;
   .inner-col-#{$col-number} {
     $col-width: $col-number / $grid-columns;
     width: calc(100% * #{$col-width} - 0px * (1 - #{$col-width}));
-    background-color: #ccc;
+  //  background-color: #ccc;
     // Dont use padding and margin : use p-1 or mx-1 on HTML element
     display:flex;
   }
