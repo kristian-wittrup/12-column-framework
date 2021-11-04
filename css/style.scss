@@ -26,6 +26,11 @@ a {
 
 header {
   background-color: $primary-color;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $grid-gutter;
+  max-width: $width-type; // Change for full width or a set width -> in config file
+  width: $width-type;
   
   nav {
     display: flex;
